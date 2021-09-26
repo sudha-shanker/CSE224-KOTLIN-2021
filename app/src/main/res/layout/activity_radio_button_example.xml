@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButtonExample">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose any one of them?"
+        android:textColor="#B71C1C"
+        ></TextView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RGrp">
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:id="@+id/RBtn1"
+           android:text="Android"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+           android:textStyle="bold"
+           ></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RBtn2"
+            android:text="Java"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RBtn3"
+            android:text="Data Structure"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/RBtn4"
+            android:text="Python"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnSubmit"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#752A02"
+        android:text="Submit"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnReset"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#752A02"
+        android:text="Reset"
+        ></Button>
+</LinearLayout>
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"></TextView>
+
+</LinearLayout>
