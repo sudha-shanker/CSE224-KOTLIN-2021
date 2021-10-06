@@ -10,20 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE224_KOTLIN_2021">
         <activity
-            android:name=".SpinnerExample"
+            android:name=".ImageViewExample"
             android:exported="true" ><intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>
         <activity
-            android:name=".CheckBoxExample"
+            android:name=".ImageButtonExample"
             android:exported="true">
-
         </activity>
         <activity
-            android:name=".RadioButtonExample"
+            android:name=".SnackBarExample"
             android:exported="true"></activity>
+        <activity
+            android:name=".SpinnerExample"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxExample"
+            android:exported="true" />
+        <activity
+            android:name=".RadioButtonExample"
+            android:exported="true" />
         <activity
             android:name=".SimpleCalculator"
             android:exported="true" />
