@@ -6,8 +6,16 @@
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_android_life_cycle.xml" value="0.19583333333333333" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_check_box_example.xml" value="0.19791666666666666" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_edit_text_example.xml" value="0.19010416666666666" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_explicit_intent_data_transfer_first.xml" value="0.25" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_explicit_intent_data_transfer_second.xml" value="0.12907608695652173" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_explicit_intent_ex_first.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_explicit_intent_ex_second.xml" value="0.11676798378926039" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_grid_layout_example.xml" value="0.25" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_grid_view_basic_example.xml" value="0.24010416666666667" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_button_example.xml" value="0.19322916666666667" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_picker_example.xml" value="0.176" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_view_example.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_implicit_intent_example.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_radio_button_example.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_simple_calculator.xml" value="0.25" />
@@ -21,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
   </component>
 </project>

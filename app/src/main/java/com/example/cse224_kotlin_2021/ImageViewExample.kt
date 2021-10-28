@@ -14,11 +14,13 @@ class ImageViewExample : AppCompatActivity() {
         val and = findViewById<ImageView>(R.id.android)
 
         monkey.setOnClickListener {
-            Toast.makeText(applicationContext,"Image View!, Monkey",Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"ImageView! Monkey",Toast.LENGTH_LONG).show()
         }
 
         and.setOnClickListener {
-            Toast.makeText(applicationContext,"Image View!, Android",Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"ImageView! Android",Toast.LENGTH_LONG).show()
         }
+
+
     }
 }

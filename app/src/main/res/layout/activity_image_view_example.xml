@@ -22,22 +22,21 @@
         android:id="@+id/monkey"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:paddingTop="10dp"
         android:layout_below="@+id/head"
-        android:paddingTop="15dp"
         android:scaleType="fitXY"
-        android:src="@drawable/monkey"></ImageView>
+        android:src="@drawable/monkey"
+        ></ImageView>
+
 
     <ImageView
         android:id="@+id/android"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_below="@id/monkey"
-        android:paddingTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/monkey"
+        android:src="@drawable/android"
         android:scaleType="fitXY"
-        android:src="@drawable/android">
-
-    </ImageView>
-
-
+        ></ImageView>
 
 </RelativeLayout>
