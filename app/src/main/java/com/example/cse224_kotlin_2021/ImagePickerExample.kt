@@ -15,14 +15,15 @@ class ImagePickerExample : AppCompatActivity() {
         val imageV = findViewById<ImageView>(R.id.imageV)
         val btnSelect = findViewById<Button>(R.id.BtnSelect)
 
-        val getImage = registerForActivityResult(
-            ActivityResultContracts.GetContent(),
+        val getImage = registerForActivityResult(ActivityResultContracts.GetContent(),
             ActivityResultCallback {
                 imageV.setImageURI(it)
-            }
-        )
+            })
+
         btnSelect.setOnClickListener {
             getImage.launch("image/*")
         }
+
+
     }
 }

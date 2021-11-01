@@ -14,14 +14,14 @@
             android:exported="true" />
         <activity
             android:name=".ExplicitIntentDataTransferFirst"
+            android:exported="true" ></activity>
+        <activity
+            android:name=".ImagePickerExample"
             android:exported="true" ><intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>
-        <activity
-            android:name=".ImagePickerExample"
-            android:exported="true" />
         <activity
             android:name=".ExplicitIntentExSecond"
             android:exported="true" />
