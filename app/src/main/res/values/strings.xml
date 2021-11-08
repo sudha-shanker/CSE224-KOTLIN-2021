@@ -3,10 +3,10 @@
     <string name="selected_item">Selected item:</string>
 
 
-
-<string name="the_result_string">The result text is : "%1$s"</string>
-<string name="waiting_for_result">Waiting for result</string>
-<string name="enter_a_text">Enter a text</string>
-<string name="send_result">Send Result</string>
-<string name="get_result">Get Result</string>
+    <string name="the_result_string">The result text is : "%1$s"</string>
+    <string name="waiting_for_result">Waiting for result</string>
+    <string name="enter_a_text">Enter a text</string>
+    <string name="send_result">Send Result</string>
+    <string name="get_result">Get Result</string>
+    <string name="chooser_title">Choose your app</string>
 </resources>

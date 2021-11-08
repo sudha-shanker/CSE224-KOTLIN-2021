@@ -22,14 +22,10 @@ class ExplicitIntentDataTransferSecond : AppCompatActivity() {
             setActivityResult()
             finish()
         }
-
     }
-
     override fun onBackPressed() {
         setResult(Activity.RESULT_CANCELED)
-        super.onBackPressed()
-
-    }
+        super.onBackPressed()    }
 
     private fun setActivityResult() {
         val intent = Intent()
