@@ -27,7 +27,6 @@ class AppChoserExample : AppCompatActivity() {
             intent.setDataAndType(Uri.parse(url),"text/plain")
             val choose = Intent.createChooser(intent, "Share URL")
             startActivity(choose)
-
         }
     }
 }
