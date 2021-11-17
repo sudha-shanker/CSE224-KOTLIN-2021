@@ -30,7 +30,6 @@ class ExplicitIntentDataTransferFirst : AppCompatActivity() {
                 {
                     Toast.makeText(applicationContext, "Back Button Pressed", Toast.LENGTH_LONG).show()
                 }
-
         }
 
         getResultButton.setOnClickListener {

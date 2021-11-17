@@ -37,7 +37,6 @@ class EditTextExample : AppCompatActivity() {
                                      DOB - ${dob.text}
                                      Contact - ${phoneno.text}"""
 
-
                 }
             }
    }

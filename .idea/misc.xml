@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_android_life_cycle.xml" value="0.19583333333333333" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_app_choser_example.xml" value="0.25" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_camera_picture_example.xml" value="0.140625" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_check_box_example.xml" value="0.19791666666666666" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_dynamic_view_example.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_edit_text_example.xml" value="0.19010416666666666" />
@@ -16,11 +17,13 @@
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_grid_view_basic_example.xml" value="0.24010416666666667" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_button_example.xml" value="0.19322916666666667" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_picker_example.xml" value="0.176" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_receiver_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_image_view_example.xml" value="0.24010416666666667" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_implicit_intent_example.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_intent_data_transfer_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_intent_data_transfer_example_second.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_permission_example.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_radio_button_example.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_simple_calculator.xml" value="0.25" />
         <entry key="..\:/Android/CSE224_KOTLIN_2021/app/src/main/res/layout/activity_snack_bar_example.xml" value="0.25" />
@@ -37,7 +40,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.176" />
+        <option name="scale" value="0.25416666666666665" />
       </ProjectState>
     </option>
   </component>
