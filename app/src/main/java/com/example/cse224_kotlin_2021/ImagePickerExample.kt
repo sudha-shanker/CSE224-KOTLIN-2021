@@ -7,11 +7,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.result.ActivityResultCallback
+import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.result.registerForActivityResult
 
 class ImagePickerExample : AppCompatActivity() {
     lateinit var imageUri:Uri
+    lateinit var getImage:ActivityResultLauncher<String>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image_picker_example)
@@ -20,7 +22,7 @@ class ImagePickerExample : AppCompatActivity() {
         val btnSelect = findViewById<Button>(R.id.BtnSelect)
         val btnSend = findViewById<Button>(R.id.button4)
 
-        val getImage = registerForActivityResult(ActivityResultContracts.GetContent(),
+        getImage = registerForActivityResult(ActivityResultContracts.GetContent(),
             ActivityResultCallback {
                 imageUri=it
                 imageV.setImageURI(it)
@@ -35,7 +37,6 @@ class ImagePickerExample : AppCompatActivity() {
         btnSelect.setOnClickListener {
             getImage.launch("image/*")
         }
-
 
     }
 }
