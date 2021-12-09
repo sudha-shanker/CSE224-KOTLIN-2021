@@ -11,22 +11,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CSE224_KOTLIN_2021">
+       android:theme="@style/Theme.CSE224_KOTLIN_2021">
         <activity
-            android:name=".PopupMenuExample"
+            android:name=".OptionMenuImageExample"
             android:exported="true" ><intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>
         <activity
-            android:name=".CustomAlertDialogExample"
+            android:name=".OptionMenuExample"
+            android:exported="true" />
+        <activity
+            android:name=".ActionBarExample"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".AlertDialogExample"
+            android:name=".ContextMenuExample"
             android:exported="true"></activity>
+        <activity
+            android:name=".ListViewExample"
+            android:exported="true" />
+        <activity
+            android:name=".PopupMenuExample"
+            android:exported="true" />
+        <activity
+            android:name=".CustomAlertDialogExample"
+            android:exported="true" />
+        <activity
+            android:name=".AlertDialogExample"
+            android:exported="true" />
         <activity
             android:name=".CameraPictureExample"
             android:exported="true" />
